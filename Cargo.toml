@@ -8,4 +8,5 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.75"
 crossterm = "0.27.0"
+html_parser = "0.7.0"
 ratatui = { version = "0.23.0", features = ["all-widgets"] }
