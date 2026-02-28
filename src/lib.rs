@@ -1,14 +1,5 @@
-/// Application.
-pub mod app;
+mod parser;
+mod tui;
 
-/// Terminal events handler.
-pub mod event;
-
-/// Widget renderer.
-pub mod ui;
-
-/// Terminal user interface.
-pub mod tui;
-
-/// Event handler.
-pub mod handler;
+pub use parser::Parser;
+pub use tui::App;
